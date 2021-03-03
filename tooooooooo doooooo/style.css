@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    background-color: #e1e8e9;
+}
+
+div input{
+padding: 5px 20px;
+font-weight: bold;
+font-size: 20px;
+position: relative;
+top: 80px;
+border-radius: 10px;
+height: 40px;
+border: 2px solid limegreen;
+width: 300px;
+}
+.btn{
+    padding: 5px 20px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#fff;
+    color: green;
+    height: 50px;
+    border:2px solid green;
+    font-weight: bold;
+}
+.ul{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* border: 1px solid; */
+    font-size: 25px;
+    width: 80%;
+    padding: 20px;
+  
+    
+}
+.ul li{
+    margin: 5px;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    padding-right: 200px;
+    
+}
+.head{
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+    right: 13px;
+    font-size: 40px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.dltbtn{
+   margin-left: 100px;
+   width: 80px;
+   height: 30px;
+   border: 1px solid green;
+   border-radius: 10px;
+   color: green;
+   cursor: pointer;
+}
+.dltbtn:hover{
+    color: white;
+    background-color: green;
+}
